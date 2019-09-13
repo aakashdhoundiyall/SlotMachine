@@ -10,7 +10,6 @@ const handleClick = () => {
 }
 const stopButton = shallow(<StopButton clicked={handleClick} />);
                            
-test('StopButton component working', () => {
-  
+test('Stop Button working', () => {
   expect(stopButton.instance().props.clicked).toEqual(handleClick);
 });
